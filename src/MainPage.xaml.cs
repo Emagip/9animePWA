@@ -104,7 +104,8 @@ namespace _9Anime_PWA
                 url.ToString().Contains("9anime.me") ||
                 url.ToString().Contains("9anime.pl") ||
                 url.ToString().Contains("9anime.id") ||
-                url.ToString().Contains("9anime.gs"))
+                url.ToString().Contains("9anime.gs") ||
+                url.ToString().Contains("aniwave.to"))
             {
                 return true;
             }
